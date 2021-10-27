@@ -10,7 +10,7 @@ body {
     z-index: -10;
     top: 0;
     left: 0;
-	background-color: #17153a; 
+	background-color: #17153a;
 	background-image: url(""); 
 	background-repeat: no-repeat; 
 	background-size: cover; 
@@ -30,7 +30,7 @@ body {
 .diagonal-section {
 	z-index: 30; 
 	position: relative;
-	opacity: 0.1;
+	opacity: 1;
 	transform: skewY(-2deg); 
 	-ms-transform: skewY(-2deg); 
 	-webkit-transform: skewY(-2deg);
@@ -48,7 +48,7 @@ body {
 }
 
 .white-bg {
-	background: white; 
+	background: white;
 }
 
 .transparent-bg {
@@ -57,6 +57,10 @@ body {
 
 .black-bg {
 	background: black;
+}
+
+.blue-bg {
+	background: #17153a;
 }
 
 .diagonal-section-content {
